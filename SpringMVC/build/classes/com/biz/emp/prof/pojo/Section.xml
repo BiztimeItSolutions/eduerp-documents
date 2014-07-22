@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package ="com.pojo">
+	<class name="SectionPojo" table="sectiondummy">
+	
+	<cache usage="read-write"/>
+	
+		 <id name="Section_ID">
+            <generator class="assigned"/>
+        </id>
+       
+         <property name="Name"/>
+          <property name="Active"/>
+	 	        <property name="Deleted"/>
+	 	          <property name="Effective_Date"/>
+	 	            <property name="Expiry_Date"/>
+	 	              <property name="Version"/>
+	 	                <property name="Created_By"/>
+	 	                  <property name="Created_On"/>
+	 	                    <property name="Modified_By"/>
+	 	                      <property name="Modified_On"/>
+	 	                     
+	</class>
+</hibernate-mapping>
