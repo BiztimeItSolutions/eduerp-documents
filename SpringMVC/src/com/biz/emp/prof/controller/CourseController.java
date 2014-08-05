@@ -1,4 +1,4 @@
-package com.controller;
+package com.biz.emp.prof.controller;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.pojo.CoursePojo;
+import com.biz.emp.prof.pojo.CoursePojo;
 
 
 @Controller

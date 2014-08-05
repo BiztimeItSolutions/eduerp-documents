@@ -1,4 +1,4 @@
-package com.dao;
+package com.biz.emp.prof.dao;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -10,8 +10,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 
-import com.interfaces.ISection;
-import com.pojo.SectionPojo;
+import com.biz.emp.prof.interfaces.ISection;
+import com.biz.emp.prof.pojo.SectionPojo;
 
 public class SectionDao implements ISection{
 	

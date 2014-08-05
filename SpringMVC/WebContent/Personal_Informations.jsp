@@ -2,9 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -321,7 +319,7 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                 <form id="studentform" name="registerform" action="" method="" onsubmit="return registerForm('registerform')">
+                                 <form action="personal_information.do" method="post">
 
 		<fieldset>
 			<legend>Personal Informations</legend>
@@ -333,7 +331,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="emp_id" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="emp_ID" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -349,7 +347,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="fname" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="first_name" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -363,7 +361,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="mname" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="middle_name" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -377,7 +375,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="lname" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="last_name" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -400,7 +398,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="addressline1" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="address_line1" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -416,7 +414,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="addressline2" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="address_line2" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -477,8 +475,8 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="country" id="user"></div>
-                                                 <select>
+                                                 <div class="form-group">
+                                                 <select name="country">
 <option>Afghanistan</option>
 
 <option>Akrotiri</option>
@@ -985,7 +983,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="emailid" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="email_ID" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -1001,7 +999,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="phonenumber" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="phone_number" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -1029,7 +1027,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="bloodgroup" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="blood_group" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -1049,7 +1047,7 @@
                                               <tr>
                                                <td width="608">
                                                
-                                                 <div class="form-group"><select name="maritalstatus">
+                                                 <div class="form-group"><select name="marital_status">
                                                  <option>-Select one option-</option>
                                                   <option>Married</option>
                                                    <option>Single</option>
@@ -1108,7 +1106,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="idnumber" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="id_number" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -1126,7 +1124,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="pancardnumber" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="pan_card_number" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -1141,7 +1139,25 @@
 			<label for="e" class="block">Photo:</label>
 				<span class="style1">                                            *</span>
                                             
-              <input type="file" />                    
+              <input type="file" name="photo"/>                    
+				
+
+			</p>
+			
+			<p>
+			<label for="e" class="block">Parent Employee ID:</label>
+				<span class="style1">                                            *</span>
+                                            
+                                          <table width="1015">
+                                              <tr>
+                                               <td width="608">
+                                                 <div class="form-group"><input class="form-control" name="parent_emp_id" id="user"></div>
+                                                 
+                                               </td>
+                                               <td width="393"><label id="lbluser"></label></td>
+                                               
+                                             </tr>
+                                          </table> 
 				
 
 			</p>
@@ -1152,7 +1168,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="userid" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="user_ID" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -1169,7 +1185,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="password" id="user"></div>
+                                                 <div class="form-group"><input  type="password" class="form-control" name="password" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>
@@ -1181,10 +1197,10 @@
 		
 		 
 		<p>
-			<button type="submit" id="send"><a href=Education_Details.jsp>Next</a></button>
+			<button type="submit" id="send">Next</button>
 		</p>
         
-		
+		</form>
             
             
             
@@ -1225,7 +1241,7 @@
     <script src="js/sb-admin.js"></script>
 
     <!-- Page-Level Demo Scripts - Forms - Use for reference -->
-
+</form>
 </body>
 
 </html>

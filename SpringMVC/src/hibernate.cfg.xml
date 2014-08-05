@@ -35,7 +35,11 @@
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">update</property>
 
-        <mapping resource="com/pojo/Section.xml"/>
+       <mapping resource="com/biz/emp/prof/pojo/DesignationDetails.xml"/>
+        <mapping resource="com/biz/emp/prof/pojo/PersonalInformations.xml"/>
+                 <mapping resource="com/biz/emp/prof/pojo/EducationDetails.xml"/>
+                 <mapping resource="com/biz/emp/prof/pojo/WorkExperienceDetails.xml"/>
+        <mapping resource="com/biz/emp/prof/pojo/AccountsDetails.xml"/>
        
     </session-factory>
 

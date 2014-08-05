@@ -1,10 +1,8 @@
-package com.controller;
+package com.biz.emp.prof.controller;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Iterator;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.portlet.ModelAndView;
 
-import com.dao.SectionDao;
-import com.pojo.SectionPojo;
-import com.interfaces.ISection;
+import com.biz.emp.prof.dao.SectionDao;
+import com.biz.emp.prof.pojo.SectionPojo;
+import com.biz.emp.prof.interfaces.ISection;
 
 @Controller
 public class SectionController {

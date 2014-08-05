@@ -280,21 +280,7 @@
                         </div>
                         <!-- /input-group -->
                     </li>
-                     <li>
-                        <a href="Personal_Informations.jsp"><i class="fa fa-dashboard fa-fw"></i>Personal Informations</a>
-                    </li>
-                    <li>
-                         <a href="Education_Details.jsp"><i class="fa fa-dashboard fa-fw"></i>Education Details</a>
-                    </li>    
-      <li>
-                        <a href="Designation_Details.jsp"><i class="fa fa-dashboard fa-fw"></i>Designation Details</a>
-                    </li>
-                     <li>
-                        <a href="Work_Experience_Details.jsp"><i class="fa fa-dashboard fa-fw"></i>Work Experience Details</a>
-                    </li>
-                     <li>
-                        <a href="Accounts_Details.jsp"><i class="fa fa-dashboard fa-fw"></i>Accounts Details</a>
-                    </li>    
+                   
      
                    </ul>
                 <!-- /#side-menu -->
@@ -321,136 +307,10 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                 <form id="studentform" name="registerform" action="" method="" onsubmit="return registerForm('registerform')">
-
-		<fieldset>
-			<legend>Work Experience Details</legend>
+                            
+		<h1>you have submitted successfully</h1>
 			
-			<p>
-				<label for="fname" class="block">Employee ID:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="emp_id" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-                                          <p>
-                                          <p>
-					
-				<label for="mname" class="block">College Name:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="collegename" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-				
-				<label for="lname" class="block">University Name:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="universityname" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-			</p>
 			
-			    <p>
-				<label for="fname" class="block">Designation:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="designation" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-                                          <p>
-				<label class="block">Start Date:</label>
-				<span class="style1">        *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="startdate" id="user" type="date"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               </tr>
-                                          </table> 
-				
- 
-			</p>
-				  <p>
-				<label class="block">End Date:</label>
-				<span class="style1">        *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="enddate" id="user" type="date"></div>
-                                                 
-                                               </td>
-                                              <td width="393"><label id="lbluser"></label></td>
-                                               </tr>
-                                          </table> 
-				
- 
-			</p>
-			  <p>
-				<label class="block">Year of Experience:</label>
-			
-			 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                               
-                                                 <div class="form-group"><select name="yearofexperience">
-                                                 <option>-Select one option-</option>
-                                                  <option>0</option>
-                                                   <option>less than 1 year</option>
-                                                   <option>less than 5 years</option>
-                                                   <option>less than 10 years</option>
-                                                   <option>more than 10 years</option>
-                                                 </select></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-				
- 
-			</p>
-			
-		 
-		<p>
-			<button type="submit" id="send"><a href="Accounts_Details.jsp">Next</a></button>
-		</p>
-        
-		
             
             
             

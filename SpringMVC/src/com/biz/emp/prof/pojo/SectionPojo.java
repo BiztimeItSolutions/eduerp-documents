@@ -1,4 +1,4 @@
-package com.pojo;
+package com.biz.emp.prof.pojo;
 
 public class SectionPojo {
 	private int section_ID;

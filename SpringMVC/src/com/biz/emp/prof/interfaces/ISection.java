@@ -1,4 +1,4 @@
-package com.interfaces;
+package com.biz.emp.prof.interfaces;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

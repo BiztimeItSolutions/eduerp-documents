@@ -321,7 +321,7 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                 <form id="studentform" name="registerform" action="" method="" onsubmit="return registerForm('registerform')">
+                                 <form action="designationdetails.do" method="post">
 
 		<fieldset>
 			<legend>Designation Details</legend>
@@ -334,7 +334,7 @@
                                           <table width="1015">
                                               <tr>
                                                <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="emp_id" id="user"></div>
+                                                 <div class="form-group"><input class="form-control" name="emp_ID" id="user"></div>
                                                  
                                                </td>
                                                <td width="393"><label id="lbluser"></label></td>

@@ -280,21 +280,7 @@
                         </div>
                         <!-- /input-group -->
                     </li>
-                     <li>
-                        <a href="Personal_Informations.jsp"><i class="fa fa-dashboard fa-fw"></i>Personal Informations</a>
-                    </li>
-                    <li>
-                         <a href="Education_Details.jsp"><i class="fa fa-dashboard fa-fw"></i>Education Details</a>
-                    </li>    
-      <li>
-                        <a href="Designation_Details.jsp"><i class="fa fa-dashboard fa-fw"></i>Designation Details</a>
-                    </li>
-                     <li>
-                        <a href="Work_Experience_Details.jsp"><i class="fa fa-dashboard fa-fw"></i>Work Experience Details</a>
-                    </li>
-                     <li>
-                        <a href="Accounts_Details.jsp"><i class="fa fa-dashboard fa-fw"></i>Accounts Details</a>
-                    </li>    
+                   
      
                    </ul>
                 <!-- /#side-menu -->
@@ -321,105 +307,10 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                 <form id="studentform" name="registerform" action="" method="" onsubmit="return registerForm('registerform')">
-
-		<fieldset>
-			<legend>Accounts Details</legend>
+                            
+		<h1>you have submitted successfully</h1>
 			
-			<p>
-				<label for="fname" class="block">Employee ID:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="emp_id" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-                                          <p>
 			
-                                          <p>
-					
-				<label for="mname" class="block">Bank Name:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="bankname" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-				
-				<label for="lname" class="block">Account Number:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="accountnumber" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-			</p>
-			
-			    <p>
-				<label for="fname" class="block">IFSC Code:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="ifsccode" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-                            <p>
-				<label for="fname" class="block">Account Type:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="accounttype" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table>              
-		  <p>
-				<label for="fname" class="block">Branch Name:</label>
-				 <span class="style1">                                            *</span>
-                                            
-                                          <table width="1015">
-                                              <tr>
-                                               <td width="608">
-                                                 <div class="form-group"><input class="form-control" name="branchname" id="user"></div>
-                                                 
-                                               </td>
-                                               <td width="393"><label id="lbluser"></label></td>
-                                               
-                                             </tr>
-                                          </table> 
-		<p>
-			<button type="submit" id="send"><a href="Accounts_Details.jsp">Submit</a></button>
-		</p>
-        
-		
             
             
             
